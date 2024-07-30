@@ -1,0 +1,33 @@
+# Mandatory items:
+
+[general]
+name=Print Selection
+qgisMinimumVersion=3.0
+description=Outputs selected features to text console.
+version=0.1.0
+author=Andreas Steffens (GDS Geo Daten Service GmbH)
+email=a.steffens@gds-team.de
+tracker=https://github.com/GDS-Geo-Daten-Service-GmbH/qgis-print-selection/issues
+repository=https://github.com/GDS-Geo-Daten-Service-GmbH/qgis-print-selection
+about=This plugin prints prints the currently selected features to a text console ordered by the layer they belong to.
+
+
+# Recommended items:
+
+hasProcessingProvider=no
+tags=zoom, scale, map units, resolution
+homepage=https://github.com/GDS-Geo-Daten-Service-GmbH/qgis-print-selection
+experimental=False
+deprecated=False
+server=False
+
+icon=icon.png
+#plugin_dependencies=
+category=Plugins
+
+changelog=
+   [2024-07-30] 0.1.0
+   ------------------
+   Initial release
+
+
