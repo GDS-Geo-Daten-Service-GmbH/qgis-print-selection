@@ -4,7 +4,7 @@
 name=Print Selection
 qgisMinimumVersion=3.0
 description=Outputs selected features to text console.
-version=0.1.0
+version=0.1.1
 author=Andreas Steffens (GDS Geo Daten Service GmbH)
 email=a.steffens@gds-team.de
 tracker=https://github.com/GDS-Geo-Daten-Service-GmbH/qgis-print-selection/issues
