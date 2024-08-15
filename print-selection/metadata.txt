@@ -15,7 +15,7 @@ about=This plugin prints prints the currently selected features to a text consol
 # Recommended items:
 
 hasProcessingProvider=no
-tags=zoom, scale, map units, resolution
+tags=selection, print, log
 homepage=https://github.com/GDS-Geo-Daten-Service-GmbH/qgis-print-selection
 experimental=False
 deprecated=False
@@ -26,6 +26,10 @@ icon=icon.png
 category=Plugins
 
 changelog=
+   [2024-08-15] 0.1.1
+   ------------------
+   Initial release
+
    [2024-07-30] 0.1.0
    ------------------
    Initial release
