@@ -25,8 +25,6 @@ from qgis.PyQt import uic
 from qgis.gui import *
 from qgis.core import *
 
-from .resources import *
-
 class PrintSelection(QWidget):
 
     def __init__(self, iface):
