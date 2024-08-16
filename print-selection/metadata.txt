@@ -4,7 +4,7 @@
 name=Print Selection
 qgisMinimumVersion=3.0
 description=Outputs selected features to text console.
-version=0.1.2
+version=0.1.3
 author=Andreas Steffens (GDS Geo Daten Service GmbH)
 email=a.steffens@gds-team.de
 tracker=https://github.com/GDS-Geo-Daten-Service-GmbH/qgis-print-selection/issues
@@ -26,6 +26,10 @@ icon=icon.png
 category=Plugins
 
 changelog=
+   [2024-08-16] 0.1.3
+   ------------------
+   Using layer.name() rather than layer.title() for console output
+
    [2024-08-16] 0.1.2
    ------------------
    Removed superfluous imports causing problems in older python versions

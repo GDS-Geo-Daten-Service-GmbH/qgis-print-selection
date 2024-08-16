@@ -39,5 +39,5 @@ class PrintSelection(QWidget):
         self.iface.mapCanvas().selectionChanged.connect(self.onSelectionChanged)
 
     def onSelectionChanged(self, layer):
-        QgsMessageLog.logMessage(str(layer.selectedFeatureCount()) + " in Ebene '" + layer.title()  + "' ausgewählt!", tag="Print Selection", level=Qgis.MessageLevel.Info)
+        QgsMessageLog.logMessage(str(layer.selectedFeatureCount()) + " in Ebene '" + layer.name()  + "' ausgewählt!", tag="Print Selection", level=Qgis.MessageLevel.Info)
 
